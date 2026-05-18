@@ -2,7 +2,7 @@ const SIGNUP_ENDPOINT = "";
 const FALLBACK_EMAIL = "dialameh.babak@gmail.com";
 const SENSOR_LATITUDE = 40.743336;
 const SENSOR_LONGITUDE = -84.24808;
-const dashboardUpdatedAt = "2026-05-18 13:18";
+const dashboardUpdatedAt = "2026-05-18 13:47";
 const chartHoverTargets = {
   precipChart: [],
   tempChart: []
