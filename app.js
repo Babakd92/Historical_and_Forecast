@@ -2,7 +2,7 @@ const SIGNUP_ENDPOINT = "";
 const FALLBACK_EMAIL = "dialameh.babak@gmail.com";
 const SENSOR_LATITUDE = 40.743336;
 const SENSOR_LONGITUDE = -84.24808;
-const dashboardUpdatedAt = "2026-05-18 13:47";
+const dashboardUpdatedAt = "2026-05-18 14:19";
 const chartHoverTargets = {
   precipChart: [],
   tempChart: []
@@ -46,17 +46,17 @@ const precipData = [
   },
   {
     "date": "2026-05-18",
-    "value": 7.2,
+    "value": 29.8,
     "type": "future"
   },
   {
     "date": "2026-05-19",
-    "value": 7.6,
+    "value": 5.8,
     "type": "future"
   },
   {
     "date": "2026-05-20",
-    "value": 4.7,
+    "value": 0.1,
     "type": "future"
   },
   {
@@ -155,17 +155,17 @@ const tempData = [
   {
     "date": "2026-05-18",
     "futureMin": 19.4,
-    "futureMax": 30.8
+    "futureMax": 30.9
   },
   {
     "date": "2026-05-19",
-    "futureMin": 19.0,
-    "futureMax": 26.7
+    "futureMin": 18.3,
+    "futureMax": 27.0
   },
   {
     "date": "2026-05-20",
     "futureMin": 10.2,
-    "futureMax": 20.3
+    "futureMax": 20.7
   },
   {
     "date": "2026-05-21",
@@ -227,19 +227,19 @@ const tempData = [
 const forecastRiskData = [
   {
     "date": "2026-05-18",
-    "rain": 7.2,
+    "rain": 29.8,
     "rainProbability": 69.0,
-    "wind": 51.2
+    "wind": 34.5
   },
   {
     "date": "2026-05-19",
-    "rain": 7.6,
+    "rain": 5.8,
     "rainProbability": 93.0,
-    "wind": 41.0
+    "wind": 34.6
   },
   {
     "date": "2026-05-20",
-    "rain": 4.7,
+    "rain": 0.1,
     "rainProbability": 93.0,
     "wind": 19.2
   },
@@ -331,28 +331,28 @@ const historicalSummaryData = [
 const forecastTableData = [
   {
     "date": "2026-05-18",
-    "condition": "Moderate rain",
-    "maxTemp": 30.8,
+    "condition": "Heavy rain",
+    "maxTemp": 30.9,
     "minTemp": 19.4,
-    "rainMm": 7.2,
+    "rainMm": 29.8,
     "rainProbability": 69.0,
-    "windKmh": 51.2
+    "windKmh": 34.5
   },
   {
     "date": "2026-05-19",
-    "condition": "Moderate rain",
-    "maxTemp": 26.7,
-    "minTemp": 19.0,
-    "rainMm": 7.6,
+    "condition": "Thunderstorm",
+    "maxTemp": 27.0,
+    "minTemp": 18.3,
+    "rainMm": 5.8,
     "rainProbability": 93.0,
-    "windKmh": 41.0
+    "windKmh": 34.6
   },
   {
     "date": "2026-05-20",
-    "condition": "Slight showers",
-    "maxTemp": 20.3,
+    "condition": "Overcast",
+    "maxTemp": 20.7,
     "minTemp": 10.2,
-    "rainMm": 4.7,
+    "rainMm": 0.1,
     "rainProbability": 93.0,
     "windKmh": 19.2
   },
